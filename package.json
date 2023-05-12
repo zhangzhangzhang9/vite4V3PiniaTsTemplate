@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "test": "vite --mode test",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "ts": "vue-tsc --noEmit",
@@ -17,6 +18,10 @@
     ]
   },
   "dependencies": {
+    "@vueuse/core": "^10.1.2",
+    "axios": "^1.4.0",
+    "pinia": "^2.0.36",
+    "pinia-plugin-persistedstate": "^3.1.0",
     "vue": "^3.2.47",
     "vue-router": "^4.2.0"
   },
@@ -37,6 +42,7 @@
     "sass": "^1.62.1",
     "typescript": "^5.0.2",
     "vite": "^4.3.2",
+    "vite-plugin-compression": "^0.5.1",
     "vue-tsc": "^1.4.2"
   }
 }
