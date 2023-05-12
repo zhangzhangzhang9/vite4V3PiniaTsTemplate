@@ -31,7 +31,7 @@ export default ({ mode }) => {
     // 端口 proxy代理
     server: {
       host: '0.0.0.0',
-      port: 8080,
+      port: 9999,
       open: true,
       https: false,
       proxy: {

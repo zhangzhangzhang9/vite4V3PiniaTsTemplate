@@ -1,5 +1,6 @@
 <template>
   <div>
+    <router-link to="/home"> 跳转home </router-link>; <router-link to="/login"> 跳转login </router-link>;
     <div>姓名：{{ userInfo.name }} 年龄：{{ userInfo.age }}</div>
     <div>token：{{ token }}</div>
     <div>getter值：{{ newName }}</div>

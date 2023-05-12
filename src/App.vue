@@ -4,7 +4,6 @@
       <component :is="Component" />
     </transition>
   </router-view>
-  <router-link to="/home"> 跳转home </router-link>;
 </template>
 <script setup lang="ts">
 import { watch } from 'vue';
